@@ -1332,6 +1332,7 @@ body {
  }
 
  .menu-items #inquire {
+     margin: 0 auto;
     position: relative;
  }
 
