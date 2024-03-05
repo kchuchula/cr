@@ -506,6 +506,10 @@ body {
       right: 8%;
     }
 
+    :root {
+      --swiper-theme-color:#c78d58ff;
+    }
+
  
 
     #villa1 {
@@ -1294,6 +1298,327 @@ body {
     height: 60%;
     width: 100%;
     background-color: #c78d58ff;
+  }
+
+}
+
+@media (max-width:640px) {
+
+  .island-heading {
+    width: 100%;
+    left: 0%;
+  }
+
+}
+
+@media (min-width:320px) and (max-width:440px) {
+
+
+  /* NAVIGATION */
+
+  nav {
+    position: fixed;
+    margin: 20px 0;
+    display: block;
+    height: 100px;
+    max-width: 320px;
+    text-align: center;
+    z-index: 2;
+   
+ }
+
+ .menu-items li {
+    display: none;
+ }
+
+ .menu-items #inquire {
+    position: relative;
+ }
+
+  /* HEADER */
+
+  header {
+    max-width: 100%;
+  }
+
+  header .title {
+    width: 90%;
+    left: 5%;
+    margin: 0 auto;
+  }
+
+  header .title h1 {
+    max-width: 100%;
+    font-size: 2em;
+    line-height: 32px;
+    margin: 20px auto;
+  }
+
+  header .title p {
+    font-size: 0.8em;
+    width: 100%;
+    margin: 20px auto;
+    line-height: 15px;
+  }
+
+  .callUs {
+    bottom: 10%;
+  }
+
+  .callUs #callUs-title {
+    font-size: 0.7em;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .callUs #call-info {
+    width: 50%;
+    font-size: 0.6em;
+  }
+
+
+  /* ---- VISION ----  */
+
+  .vision {
+    min-height: 170vh;
+  }
+
+  .vision-main h2 {
+    font-size: 1.7em;
+    line-height: 25px;
+  }
+
+  .vision-main p {
+    font-size: 0.7em;
+  }
+
+  .vision-main-bottom #vision-desc {
+    font-size: 0.9em;
+    line-height: 15px;
+  }
+
+  /* .vision-main-button {
+    border-bottom: 1px dotted grey;
+  } */
+
+
+  /* vision-overview */
+
+  .vision-overview-top {
+    font-size: 0.7em;
+  }
+
+  .vision-overview-top #overview-left, .vision-overview-top #overview-right {
+    line-height: 15px;
+    padding: 0;
+  }
+
+  .vision-overview-bottom {
+    max-width: 100%;
+    display: block;
+  }
+
+  .vision-overview-bottom #overview-naming {
+    padding-top: 40px;
+    font-size: 0.7em;
+  }
+
+  .vision-overview-bottom h2 {
+    font-size: 2.2em;
+    line-height: 30px;
+  }
+
+  .vision-overview-bottom .vision-button {
+    padding: 30px 0;
+  }
+
+  .vision-overview-bottom .vision-button p {
+    font-size: 0.7em;
+    padding-top: 13px;
+  }
+
+  .vision-overview-bottom .vision-button input {
+    padding: 13px;
+  }
+
+  .project-overview-image{
+    height: 50vh;
+  }
+
+  .features {
+    display: block;
+    position: relative;
+    padding-top: 10px;
+    height: 140vh;
+  }
+
+  .features-top {
+    padding-top: 20px;
+    display: block;
+    position: relative;
+  }
+
+  .features-top-left h2 {
+    font-size: 2em;
+    width: 70%;
+    margin: 20px 20px;
+  }
+
+  .features-top-right p {
+    width: 80%;
+    font-size: 0.8em;
+  }
+
+  .features-main {
+    padding: 30px ;
+  }
+
+  .features-main h3{
+
+    font-size: 2.5em;
+  }
+
+  #features-item1, #features-item2, #features-item3 {
+    margin-top: 50px;
+  }
+
+  #features-item1 p, #features-item2 p, #features-item3 p{
+    font-size: 0.6em;
+    line-height: 20px;
+  }
+
+
+  /* --- VILALS ---- */
+
+  .villas {
+    display: block;
+    position: relative;
+    padding: 10px;
+    height: 70vh;
+  }
+
+  .villas-heading {
+    position: relative;
+    width: 100%;
+  }
+
+  .villas-heading p {
+    font-size: 0.7em;
+  }
+
+  .villas-heading h2 {
+    font-size: 2em;
+    line-height: 30px;
+    margin: 50px auto;
+  }
+
+  .swiper {
+    width: 100%;
+  }
+
+  .swiper-buttons {
+    display: none;
+  }
+
+
+  /* --- THE ISLAND --- */
+ 
+  .island {
+    min-height: 50vh;
+    display: block;
+    position: relative;
+  }
+
+  .island p {
+    padding-top: 50px;
+    margin-bottom: 0;
+    font-size: 0.7em;
+  }
+
+  .island-image-container {
+    top: 25%;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .island-image-container video{
+    height: auto;
+    margin-left: 5%;
+    width: 90%;
+    left: 5%;
+    
+  }
+
+  .island-image-container p {
+    font-size: 0.7em;
+    padding-top: 80px;
+    margin: 0 auto;
+    
+  }
+
+  .island-heading {
+    top: 19%;
+  }
+
+  .island-heading h2 {
+    font-size: 2.2em;
+    line-height: 30px;
+    margin: 0;
+  }
+
+  .island-heading #heading-top {
+    margin: 0;
+  }
+
+  .island-heading #heading-bottom {
+    margin-top: 130px;
+  }
+
+
+  /* ---LOCATION --- */
+
+  .location {
+    height: 120vh;
+  }
+
+  .grid-left {
+    height: auto;
+  }
+
+  .grid-left .location-info {
+    width: 100%;
+  }
+
+  .grid-left .location-info p {
+    font-size: 0.7em;
+  }
+
+  .grid-left .location-info h2 {
+    margin: 50px auto;
+    font-size: 2.4em;
+    line-height: 35px;
+    width: 80%;
+  }
+
+  .grid-left .location-info #location-desc {
+    width: 80%;
+    font-size: 0.8em;
+  }
+
+  .grid-left .location-button {
+    width: 60%;
+  }
+
+  .grid-left .location-button p {
+    font-size: 0.8em;
+  }
+
+  .grid-left .location-button input {
+    padding: 15px;
+  }
+
+  .grid-right {
+   
   }
 
 }
