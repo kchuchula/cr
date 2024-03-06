@@ -1498,13 +1498,14 @@ body {
   .villas {
     display: block;
     position: relative;
-    padding: 10px;
+    padding: 0;
     height: 70vh;
   }
 
   .villas-heading {
     position: relative;
     width: 100%;
+    padding: 10px;
   }
 
   .villas-heading p {
@@ -1518,6 +1519,7 @@ body {
   }
 
   .swiper {
+    left: 0%;
     width: 100%;
   }
 
