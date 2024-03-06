@@ -605,10 +605,6 @@ body {
       top: 5%;
     }
 
-    #heading-top {
-      padding-top: ;
-    }
-
     #heading-bottom {
       padding-top: 1%;
     }
@@ -1311,8 +1307,13 @@ body {
 
 }
 
-@media (min-width:320px) and (max-width:440px) {
+@media (max-width:439px) {
 
+
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
 
   /* NAVIGATION */
 
@@ -1332,8 +1333,8 @@ body {
  }
 
  .menu-items #inquire {
-     margin: 0 auto;
     position: relative;
+    margin: 0 auto;
  }
 
   /* HEADER */
@@ -1458,6 +1459,10 @@ body {
     display: block;
     position: relative;
   }
+
+  .features-top-left {
+    left: 0%;
+  } 
 
   .features-top-left h2 {
     font-size: 2em;
@@ -1616,10 +1621,6 @@ body {
 
   .grid-left .location-button input {
     padding: 15px;
-  }
-
-  .grid-right {
-   
   }
 
 }
