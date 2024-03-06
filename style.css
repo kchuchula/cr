@@ -1310,11 +1310,6 @@ body {
 @media (max-width:439px) {
 
 
-  body {
-    max-width: 100%;
-    overflow-x: hidden;
-  }
-
   /* NAVIGATION */
 
   nav {
@@ -1322,15 +1317,19 @@ body {
     margin: 20px 0;
     display: block;
     height: 100px;
-    max-width: 320px;
     text-align: center;
     z-index: 2;
-   
  }
 
  .menu-items li {
     display: none;
+    text-align: center;
  }
+
+ .menu-items  {
+  padding: 0;
+  text-align: center;
+}
 
  .menu-items #inquire {
     position: relative;
