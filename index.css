@@ -1658,7 +1658,19 @@ body {
       #heading-bottom {
         padding-top: 3%;
       }
+}
 
+
+/* BY HEIGHT */
+
+@media screen and (max-height:800px) {
+  .vision {
+    min-height: 185vh;
+  }
+
+  .features {
+    min-height: 150vh;
+  }
 }
 
 
