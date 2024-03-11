@@ -277,7 +277,7 @@ body {
 
 
 
-@media (max-width:439px) { 
+@media (max-width:440px) { 
 
    .wrapper {
       min-height: 120vh;
@@ -358,7 +358,9 @@ body {
    }
 
    .grid-top-right .contact-form {
-      margin: 20px 0 0 0 ;
+      display: flex;
+      flex-wrap: wrap;
+      margin: 40px 0 0 0 ;
       position: relative;
       width: 100%;
    }
