@@ -59,6 +59,14 @@ nav {
     transition: color 1000ms ease;
 }
 
+.scrolled {
+    padding-top: 10px;
+    height: 60px;
+    margin-top: 0;
+    background-color: #f7f5f0ff;
+    opacity: 100%;
+   }
+
 
 /* -- HEADER -- */
 
@@ -128,8 +136,9 @@ nav {
 .info .description p {
     padding: 40px 0;
     line-height: 25px;
-    font-size: 1.1em;
+    font-size: 1em;
     color: grey;
+    text-transform: uppercase;
 }
 
 .info .features {
