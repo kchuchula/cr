@@ -605,10 +605,10 @@ body {
     }
 
     .island-heading {
-      width: 80%;
+      width: 100%;
       position: absolute;
       margin: 0 auto;
-      left: 10%;
+      left: 0%;
       top: 5%;
     }
 
