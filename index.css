@@ -64,6 +64,15 @@ body {
    .scrolled .menu-items li a, #inquire {
       color: black;
       transition: color 1000ms ease;
+      
+   }
+
+   .scrolled {
+    padding-top: 10px;
+    height: 60px;
+    margin-top: 0;
+    background-color: #f7f5f0ff;
+    opacity: 100%;
    }
 
   header{
