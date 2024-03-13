@@ -1476,12 +1476,11 @@ body {
   .features {
     display: block;
     position: relative;
-    padding-top: 10px;
-    height: 140vh;
+    padding-top: 20px;
+    height: 150vh;
   }
 
   .features-top {
-    padding-top: 20px;
     display: block;
     position: relative;
   }
@@ -1503,7 +1502,8 @@ body {
 
   .features-main {
     padding: 30px ;
-    justify-content: center;
+    display: block;
+    position: relative;
     text-align: center;
   }
 
@@ -1699,7 +1699,7 @@ body {
   }
 
   .features {
-    min-height: 150vh;
-    padding-top: 50px;
+    min-height: 140vh;
+
   }
 }
